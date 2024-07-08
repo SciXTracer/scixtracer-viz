@@ -12,6 +12,7 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import Home from './pages/Home';
 import Explore from './pages/Explore';
+import Demo from './pages/Demo';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -22,6 +23,7 @@ root.render(
     <Route path="/" element={<Home />} />
     <Route path="/home" element={<Home />} />
     <Route path="/explore" element={<Explore />} />
+    <Route path="/demo" element={<Demo />} />
   </Routes>
 </BrowserRouter>
 );
