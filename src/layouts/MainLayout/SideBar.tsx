@@ -27,7 +27,7 @@ export default function SideBar(props: SideBarProps){
         <>
             <div className="d-flex flex-sm-column flex-row flex-nowrap bg-dark align-items-center sticky-top">
                 <a href="/" className="d-block p-3 link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
-                    <img src={logo} width="50px"/>
+                    <img src={logo} width="45px"/>
                 </a>
                 <ul className="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center justify-content-between w-100 px-3 align-items-center">
                     <li>

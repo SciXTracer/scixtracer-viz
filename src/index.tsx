@@ -22,7 +22,7 @@ root.render(
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/home" element={<Home />} />
-    <Route path="/explore" element={<Explore />} />
+    <Route path="/explore" element={<Explore dataset_uri='demo_spots_call' />} />
     <Route path="/demo" element={<Demo />} />
   </Routes>
 </BrowserRouter>

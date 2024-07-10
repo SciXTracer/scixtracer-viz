@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import SideBar from "../../components/SideBar";
+import SideBar from "./SideBar";
 
 
 type LayoutProps = {
